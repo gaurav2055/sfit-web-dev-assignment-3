@@ -1,5 +1,5 @@
 
-/**------------------------------ROW 1 -----------------------------------------------------------*/
+//Row1
     var arrimg=["images/image1.jpg","images/image2.jpg","images/image3.jpg","images/image4.jpeg","images/image5.jpeg","images/image6.jpeg","images/image7.jpeg","images/image8.jpeg","images/image9.jpeg","images/image10.jpeg"]
     var i=0;
     
@@ -20,10 +20,9 @@
         console.log(x);
         setInterval(slideshow,x);
     }
-/**---------------------------------------------------ROW 1 END -------------------------------------*/
+//Row1 end
 
-
-/**--------------------------------------------------- ROW 2 ---------------------------------------------- */
+//Row2 
 
 function add(){
     var num1=document.getElementById("n1").value;
@@ -55,10 +54,8 @@ function div(){
     document.getElementById("ans").innerHTML=sum;
 }
     
-/**--------------------------------------------------------------ROW 2 END----------------------------------------*/
-
-
-/**--------------------------------------------------------------- ROW 3 -------------------------------------- */
+//Row2 end
+//Row3 
 
   $("#email").blur(function(){
    
@@ -75,4 +72,4 @@ function div(){
         $('#email').css({"color" : "white"});    }
   });
 
-/**--------------------------------------------------------------ROW 3 END----------------------------------------*/
+//Row3 end
